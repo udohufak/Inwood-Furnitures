@@ -8,10 +8,19 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div id="search-page">
+        <div class="search-al">
+            <a class="link-s" onclick="deSearch()" href=""> &times; </a>
+            <input type="text" name="head-search" id="" class="head-search" placeholder="Type a category e.g bedroom...">
+            <button class="btn-hsearch">search</button>
+        </div>
+       
+    </div>
         <nav class="navbar">
             <div class="container">
                 <a class="nav-link1" href=""><img src="Images/nav 1.png" alt=""></a>
-                <a class="nav-link2" href=""><img src="Images/Logo.png"  alt=""></a>
+                <a class="nav-link2" href="index.html"><img src="Images/Logo.png"  alt=""></a>
+                
                 <div class="net">
                     <a class="link" href="">Home</a>
                     <a class="link" href="">Products</a>
@@ -19,8 +28,9 @@
                     <a class="link" href="">About</a>
                     <a class="link" href="">Contact Us</a>
                 </div>
+
                   <div class="icons">
-                     <a class="nav-link" href=""><img class="icon" src="Images/Search 1.png"  alt=""></a>
+                     <img class="icon" onclick="search()" src="Images/Search 1.png"  alt="">
                      <a class="nav-link" href=""><img class="icon" src="Images/Shop 1.png" alt=""></a>
                      <a class="nav-link" href=""><img class="icon" src="Images/User 1.png" alt=""></a>
                   </div>
@@ -61,6 +71,63 @@
             </div>
             <button class="more" id="more">All Categories &rightarrow;</button>
         </nav>
+        <div class="main-block-2">
+            <div class="block-head">
+                <div class="hover">
+                    <img class="block" src="Images/Bedroom.jpg" alt="">
+                        <div class="h-allroom" id="h-allroom">
+                            <h1 class="h-bed">Bedroom</h1>
+                            <button class="btn-exp">Explore</button>
+                        </div>
+                </div>
+
+                <div class="hover">
+                    <img class="block" src="images/dinning 2.jpg" alt="">
+                        <div class="h-allroom" id="h-allroom">
+                            <h1 class="h-bed">Dinning Room</h1>
+                            <button class="btn-exp">Explore</button>
+                        </div>
+                </div>
+            </div> 
+    
+            <div class="block-head">
+                <div class="hover">
+                    <img class="block" src="images/Meeting room.jpg" alt="">
+                        <div class="h-allroom" id="h-allroom">
+                            <h1 class="h-bed">Meeting Room</h1>
+                            <button class="btn-exp">Explore</button>
+                        </div>
+                </div>
+
+                <div class="hover">
+                    <img class="block" src="images/workspace2.jpg" alt="">
+                        <div class="h-allroom" id="h-allroom">
+                            <h1 class="h-bed">Workspace</h1>
+                            <button class="btn-exp">Explore</button>
+                        </div>
+                </div>
+            </div>
+            
+            <div class="block-head">
+                <div class="hover">
+                    <img class="block" src="images/Living room.jpg" alt="">
+                        <div class="h-allroom" id="h-allroom">
+                            <h1 class="h-bed">Living Room</h1>
+                            <button class="btn-exp">Explore</button>
+                        </div>
+                </div>
+                <div class="hover">
+                    <img class="block" src="images/kitchen3.jpg" alt="">
+                        <div class="h-allroom" id="h-allroom">
+                            <h1 class="h-bed">Kitchen</h1>
+                            <button class="btn-exp">Explore</button>
+                        </div>
+                </div>
+            </div>
+    
+         </div>
+    </div>
+   
 
         <div class="main-block">
             <img class="block" src="Images/Bedroom.jpg" alt="">
@@ -72,26 +139,164 @@
 
         </div>
 
-        <div class="main-block-2">
-           <div class="block-head">
-                <img class="block" src="Images/Bedroom.jpg" alt="">
-                <img class="block" src="Images/Dinning room.jpg" alt="">
-           </div> 
+        <!-- HOVER REACT -->
 
-           <div class="block-head">
-                <img class="block" src="Images/Meeting room.jpg" alt="">
-                <img class="block" src="Images/Workspace.jpeg" alt="">
-           </div>
-           
-           <div class="block-head">
-                <img class="block" src="Images/Living room.jpg" alt="">
-                <img class="block" src="Images/Kitchen.jpg" alt="">
-           </div>
+        
+       
+        
 
-        </div>
+        
+
+       
+
+      
     </section>
 
 
-    <script src="int.js"></script>
+    <!-- DESKTOP VIEW SECTION 2 -->
+    <section class="d-category">
+        <h2 class="d-headline">Explore by Category</h2>
+        <div class="d-mainblock">
+            <div class="desk">
+                <div class="search-menu">
+                    <div class="search-bar">
+                        <img src="Images/Search 1.png" alt="">
+                        <input type="text" name="search" id="search" placeholder="Search">
+                    </div>
+                    <img class="menu-bar" src="Images/nav 1.png" alt="">
+                </div>
+        
+                <nav class="navbar-2">
+                    <div class="bar-1">
+                        <a class="bar-link" href="">Bedroom</a>
+                        <a class="bar-link" href="">Dinning Room</a>
+                        <a class="bar-link" href="">Meeting Room</a>
+                        <a class="bar-link" href="">Workspace</a>
+                        <a class="bar-link" href="">Living Room</a>
+                        <a class="bar-link" href="">Kitchen Room</a>
+                        <a class="bar-link" href="">Living Space</a>
+                        <a class="bar-link" href="">Workspace</a>
+                        <a class="bar-link" href="">Living Room</a>
+                        <a class="bar-link" href="">Kitchen Room</a>
+                        <a class="bar-link" href="">Living Space</a>
+                        <a class="bar-link" href="">Living Room</a>
+                        <a class="bar-link" href="">Kitchen Room</a>
+                        <a class="bar-link" href="">Living Space</a>
+                        <a class="bar-link" href="">Workspace</a>
+                        <a class="bar-link" href="">Living Room</a>
+                        <a class="bar-link" href="">Kitchen Room</a>
+                        <a class="bar-link" href="">Living Space</a>
+                    </div>
+                    <button class="more" id="more">All Categories &rightarrow;</button>
+                </nav>
+            </div>
+        
+            <div class="main-block-2">
+                <div class="block-head">
+                    <div class="hover">
+                        <img class="block" src="Images/Bedroom.jpg" alt="">
+                            <div class="h-allroom" id="h-allroom">
+                                <h1 class="h-bed">Bedroom</h1>
+                                <button class="btn-exp">Explore</button>
+                            </div>
+                    </div> 
+                    <div class="hover">
+                        <img class="block" src="images/dinning 2.jpg" alt="">
+                            <div class="h-allroom" id="h-allroom">
+                                <h1 class="h-bed">Dinning Room</h1>
+                                <button class="btn-exp">Explore</button>
+                            </div>
+                    </div>
+    
+                </div> 
+        
+                <div class="block-head">
+                    <div class="hover">
+                        <img class="block" src="images/Meeting room.jpg" alt="">
+                            <div class="h-allroom" id="h-allroom">
+                                <h1 class="h-bed">Meeting Room</h1>
+                                <button class="btn-exp">Explore</button>
+                            </div>
+                    </div>
+    
+                    <div class="hover">
+                        <img class="block" src="images/workspace2.jpg" alt="">
+                            <div class="h-allroom" id="h-allroom">
+                                <h1 class="h-bed">Workspace</h1>
+                                <button class="btn-exp">Explore</button>
+                            </div>
+                    </div>
+                </div>
+                
+                <div class="block-head">
+                    <div class="hover">
+                        <img class="block" src="images/Living room.jpg" alt="">
+                            <div class="h-allroom" id="h-allroom">
+                                <h1 class="h-bed">Living Room</h1>
+                                <button class="btn-exp">Explore</button>
+                            </div>
+                    </div>
+                    <div class="hover">
+                        <img class="block" src="images/kitchen3.jpg" alt="">
+                            <div class="h-allroom" id="h-allroom">
+                                <h1 class="h-bed">Kitchen</h1>
+                                <button class="btn-exp">Explore</button>
+                            </div>
+                    </div>
+                </div>
+        
+             </div>
+        </div>
+       
+    </section>
+
+    <section class="products">
+        <h1 class="catg">Popular Products</h1>
+        <img class="bgdchair" src="images/premiumsofa.png" alt="">
+       
+        <div class="chair-content">
+            <div class="chair-info" id="chair-info1">
+                <img src="images/armchair.png" alt="" width="204px" height="271px">
+                <div class="chair-details">
+                    <h3>Armchair</h3>
+                    <h4>Light Single chair</h4>
+                    <p>&dollar;145</p>
+                </div>
+            </div>
+            <div class="chair-info" id="chair-info2">
+                <img src="images/premiumsofa.png" alt="" width="248" height="294">
+                <div class="chair-details">
+                    <h3>Premium Sofa</h3>
+                    <h4>Light Single chair</h4>
+                    <p>&dollar;145</p>
+                </div>
+               
+            </div>
+            <div class="chair-info" id="chair-info3">
+                <img src="images/minimalsofa.png" alt="" width="279" height="279">
+                <div class="chair-details">
+                    <h3>Minimal Sofa</h3>
+                    <h4>Light Single chair</h4>
+                    <p>&dollar;145</p>
+                </div>
+                
+            </div>
+            <div class="chair-info" id="chair-info4">
+                <img src="images/diningchair.png" alt="" width="165" height="">
+                <div class="chair-details">
+                    <h3>Dining Chair</h3>
+                    <h4>Light Single chair</h4>
+                    <p>&dollar;145</p>
+                </div>
+                
+            </div>
+        </div>
+        <button class="btn-chair">Explore all items &rightarrow;</button>
+    </section>
+   
+ <script src="int.js"></script>
+
+    
 </body>
+
 </html>
