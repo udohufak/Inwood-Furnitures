@@ -13,6 +13,7 @@ a{
 
 body{
     font-family: 'Playfair Display', serif ;
+    background-color: #f9f8f8;
 }
 
 .navbar{
@@ -301,6 +302,93 @@ body{
     }
     .hover{
         display: none;
+    }
+    .products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 16px;
+        gap: 60px;
+        width: 325px;
+        height: 795px;
+        position: relative;
+        margin-inline: auto;
+    }    
+
+    .bgdchair{
+        position: absolute;
+        width: 365px;
+        height: 434px;
+        left: -191px;
+        top: 150px;
+    }
+    .chair-content{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 32px;
+        padding: 0px 0px 0px 40px;
+        isolation: isolate;
+       max-width: 320px;
+        height: 340px;
+        overflow-x: auto;
+        overflow-y: hidden;
+    }
+    .chair-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 20px;
+        gap: 40px;
+        width: 237px;
+        height: 340px;
+        background: #CAF3E5;
+        border-radius: 16px;
+        color: #70908B;
+    }
+    .chair-info img{
+        width: 89px;
+        height: 116px;
+    }
+    .chair-details{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        width: 197px;
+        height: 118px;
+        gap: 20px;
+    }
+    #chair-info2{
+        background-color: #E0EFF6;
+    }
+    #chair-info3{
+        background: #EEEBFF;
+        
+    }
+    #chair-info4{
+        background: #FFF4E7;
+    }
+    .btn-chair{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 20px;
+        gap: 18px;
+        width: 225px;
+        height: 70px;
+        background: #70908B;
+        border-radius: 10px;
+        font-family: 'Open Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        color: #FFFFFF;
+        border: none;
     }
 }
 
