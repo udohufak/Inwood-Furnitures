@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inwood Furniture</title>
     <link rel="stylesheet" href="style.css">
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+/>
+
+
 </head>
 <body>
     <div id="search-page">
@@ -293,8 +299,33 @@
         </div>
         <button class="btn-chair">Explore all items &rightarrow;</button>
     </section>
+
+    <div class="container">
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide"><img src="Images/armchair.png" alt="" width="500" height="1400"></div>
+              <div class="swiper-slide"><img src="Images/armchair.png" alt="" width="500" height="1400"></div>
+              <div class="swiper-slide"><img src="Images/armchair.png" alt="" width="500" height="1400"></div>
+              <div class="swiper-slide"><img src="Images/armchair.png" alt="" width="500" height="1400"></div>
+             
+              ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+          </div>
+    </div>
    
  <script src="int.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
     
 </body>
