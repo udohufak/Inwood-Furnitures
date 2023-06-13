@@ -2286,7 +2286,6 @@ body{
         margin-inline: auto;
         width: 1919px;
         height: 1165px;
-        border: 2px solid orange;
     }
     .larkin{
         position: relative;
@@ -2540,6 +2539,61 @@ body{
         font-size: 22px;
         line-height: 115%;
         letter-spacing: -0.02em;
+        color: #07484A;
+    }
+    .expediency{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 150px;
+        gap: 104px;
+        width: 1920px;
+        height: 695px;
+        background: #E0EFF6;
+        margin-inline:auto ;
+    }
+    .expediency .catg{
+        width: 836px;
+        height: 85px;
+        padding: 0px;
+    }
+    .exped-ctn{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        padding: 0px;
+        gap: 232px;
+        width: 1348px;
+        height: 306px;  
+    }
+    .pay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+        width: 289px;
+        height: 306px;
+    }
+    .pay h2{
+        width: 300px;
+        height: 48px;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 48px;
+    }
+    .pay p{
+        width: 288px;
+        height: 66px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 33px;
+        text-align: center;
         color: #07484A;
     }
     #hidden-in-desktop{
