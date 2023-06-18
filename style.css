@@ -676,6 +676,67 @@ body{
         letter-spacing: -0.02em;
         color: #07484A;
     }
+    .expediency{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 80px 16px;
+        gap: 104px;
+        width: 320px;
+        height: 1249.69px;
+        background: #E0EFF6;
+        margin-inline: auto;
+    }
+    .expediency .catg{
+        width: 288px;
+        height: 84px;
+        padding: 0px;
+    }
+    .exped-ctn{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 60px;
+        width: 288px;
+        height: 901.69px; 
+    }
+    .pay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+        width: 288px;
+        height: 254px;
+    }
+    .pay img{
+        width: 108px;
+        height: 108px;
+    }
+    .pay h2{
+        width: 288px;
+        height: 84px;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .pay p{
+        width: 260.67px;
+        height: 46px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+        color: #07484A;
+    }
     #hidden-in-mobile{
         display: none;
     }
@@ -1251,6 +1312,68 @@ body{
         letter-spacing: -0.02em;
         color: #07484A;
     }
+    .expediency{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 20px;
+        gap: 104px;
+        width: 768px;
+        height: 620px;
+        background: #E0EFF6;
+        margin-inline: auto;
+    }
+    .expediency .catg{
+        width: 627px;
+        height: 62px;
+        padding: 0px;
+    }
+    .exped-ctn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0px;
+        gap: 20px;
+        width: 728px;
+        height: 254px; 
+    }
+    .pay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+        width: 242.67px;
+        height: 254px;
+    }
+    .pay img{
+        width: 108px;
+        height: 108px;
+    }
+    .pay h2{
+        width: 242.67px;
+        height: 36px;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+    }
+    .pay p{
+        width: 260.67px;
+        height: 46px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
+        color: #07484A;
+    }
+    
     #hidden-in-mobile{
         display: none;
     }
@@ -1873,6 +1996,67 @@ body{
         font-size: 22px;
         line-height: 115%;
         letter-spacing: -0.02em;
+        color: #07484A;
+    }
+    .expediency{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 40px;
+        gap: 104px;
+        width: 1024px;
+        height: 640px;
+        background: #E0EFF6;
+        margin-inline: auto;
+    }
+    .expediency .catg{
+        width: 627px;
+        height: 62px;
+        padding: 0px;
+    }
+    .exped-ctn{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-end;
+        padding: 0px;
+        gap: 20px;
+        width: 944px;
+        height: 274px; 
+    }
+    .pay{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        gap: 32px;
+        width: 314.67px;
+        height: 274px;
+    }
+    .pay img{
+        width: 108px;
+        height: 108px;
+    }
+    .pay h2{
+        width: 314.67px;
+        height: 36px;
+        font-family: 'Playfair Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+    }
+    .pay p{
+        width: 314.67px;
+        height: 46px;
+        font-family: sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        text-align: center;
         color: #07484A;
     }
     #hidden-in-mobile{
@@ -2560,9 +2744,9 @@ body{
     .exped-ctn{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: flex-end;
         padding: 0px;
-        gap: 232px;
         width: 1348px;
         height: 306px;  
     }
